@@ -32,5 +32,14 @@ def getUserId(user_name):
             user_id=user[0]
             break
     return user_id
-print(user_list[15])
-print(getUserId(user_list[15]))
+
+user_id=1
+mapping=[]
+for user_place_with_rating in place_data:
+    for i in range(0,20,2):
+        place_id=getPlaceId(user_place_with_rating[i])
+        if(place_id!=0):
+            mapping.append([user_id,place_id,user_place_with_rating[i+1]])
+    user_id+=1
+userPlaceMapping=pd.DataFrame(mapping,columns=['User Id','Place Id','Rating'])
+userPlaceMapping.to_csv('user_place_mapping.csv', index=False)
