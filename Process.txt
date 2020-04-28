@@ -1,3 +1,5 @@
 1. Data collection from real users through Google Form
 2. Conditioning data
 	a) Cleansing the name of the places, removing duplicates and storing the unique places in a different csv file.
+	b) Creating users.csv and mapping them to the places
+	c) Creating tags for places and mapping them to places

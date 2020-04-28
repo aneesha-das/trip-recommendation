@@ -7,7 +7,7 @@ Created on Wed Apr 22 23:08:10 2020
 
 import pandas as pd
 import numpy as np
-data=pd.read_csv("place_recommendation_place_filtered.csv")
+data=pd.read_csv("temporary_working_documents/place_recommendation_place_filtered.csv")
 data_copy=data.copy(deep=True).to_numpy()
 user_list=[];
 place_data=data_copy[:,5:25]
@@ -41,5 +41,5 @@ for user_place_with_rating in place_data:
         if(place_id!=0):
             mapping.append([user_id,place_id,user_place_with_rating[i+1]])
     user_id+=1
-userPlaceMapping=pd.DataFrame(mapping,columns=['User Id','Place Id','Rating'])
+userPlaceMapping=pd.DataFrame(mapping,columns=['user_id','place_id','rating'])
 userPlaceMapping.to_csv('user_place_mapping.csv', index=False)

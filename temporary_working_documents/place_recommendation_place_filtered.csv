@@ -1,6 +1,6 @@
 Timestamp,Name,Age Range,Gender,Native State,Place 1 (from India),Rating for Place 1,Place 2(from India),Rating for Place 2,Place 3(from India),Rating for Place 3,Place 4(from India),Rating for Place 4,Place 5(from India),Rating for Place 5,Place 6(from India),Rating for Place 6,Place 7(from India),Rating for Place 7,Place 8(from India),Rating for Place 8,Place 9(from India),Rating for Place 9,Place 10(from India),Rating for Place 10
 2020/04/16 9:41:48 pm GMT+5:30,Aneesha Das,21-25,Female,West Bengal,Manali,10,Goa,10,Darjeeling,6,Jamshedpur,1,Ooty,9,Rajasthan,7,Dehradun,6,Delhi,4,Agra,5,Kolkata,7
-2020/04/16 10:09:24 pm GMT+5:30,Asit Roy,21-25,Male,West Bengal,Darjeeling,8,Gangtok,7,Lava,8,Puri,6,Orissa,8,Mussoorie,9,Delhi,4,Agra,8,Shimla,9,Pelling,8
+2020/04/16 10:09:24 pm GMT+5:30,Asit Roy,21-25,Male,West Bengal,Darjeeling,8,Gangtok,7,Lava,8,Puri,6,Odisha,8,Mussoorie,9,Delhi,4,Agra,8,Shimla,9,Pelling,8
 2020/04/16 10:09:45 pm GMT+5:30,Ankita sen,21-25,Female,West Bengal,Rajasthan,10,Gangtok,10,Darjeeling,10,Visakhapatnam,10,Hyderabad,10,Puri,6,Digha,8,Manali,10,Shimla,10,Kolkata,10
 2020/04/16 10:42:48 pm GMT+5:30,Chitrita Modak,21-25,Female,West Bengal,Haridwar,10,Varanasi,9,Santiniketan,5,Dakshineswar Kali Temple,6,Kalighat,3,Park Street,1,Shulekha,10,Bhubaneswar,7,Tarapith,8,Kamakhya Temple,8
 2020/04/16 10:59:26 pm GMT+5:30,Ranjabali Dey,21-25,Female,West Bengal,Kerala,10,Jaipur,9,Chennai,8,Patna,9,Kanpur,8,Jaipur,10,Puri,10,Varanasi,9,Rajgir,9,Delhi,10
@@ -30,15 +30,15 @@ Timestamp,Name,Age Range,Gender,Native State,Place 1 (from India),Rating for Pla
 2020/04/17 10:10:26 am GMT+5:30,Jyotishree,21-25,Female,Himachal Pradesh,Varanasi,8,Manali,9,Madhya Pradesh,8,Kerala,8,Maharashtra,8,Kedarnath,10,Rann Of Kutch,9,Jaisalmer,9,Sikkim,10,Shillong,8
 2020/04/17 10:10:27 am GMT+5:30,Swapan Kundu,51 and above,Male,West Bengal,Nainital,8,Darjeeling,6,Delhi,6,Visakhapatnam,7,Mumbai,7,Bankura,6,Vadodara,4,Murshidabad,7,Chennai,6,Goa,9
 2020/04/17 10:12:58 am GMT+5:30,Manoj Sengupta,51 and above,Male,West Bengal,Nainital,8,Mumbai,9,Delhi,9,Chennai,8,Hyderabad,8,Bangalore,9,Puri,9,Bhubaneswar,8,Jammu And Kashmir,9,Jaipur,9
-2020/04/17 10:14:49 am GMT+5:30,Atreyee Dasgupta,21-25,Female,West Bengal,Shillong,10,Rajasthan,10,Santiniketan,8,Darjeeling,7,Orissa,9,Kerala,10,Andaman,10,Lava,9,Dooars,10,Uttar Pradesh,9
+2020/04/17 10:14:49 am GMT+5:30,Atreyee Dasgupta,21-25,Female,West Bengal,Shillong,10,Rajasthan,10,Santiniketan,8,Darjeeling,7,Odisha,9,Kerala,10,Andaman,10,Lava,9,Dooars,10,Uttar Pradesh,9
 2020/04/17 10:16:36 am GMT+5:30,Sanghamitra Lahiri,21-25,Female,West Bengal,Kolkata,10,Delhi,6,Andaman,10,Chennai,5,Kanyakumari,9,Jaipur,9,Jodhpur,10,Udaipur,10,Guwahati,9,Kerala,10
-2020/04/17 10:20:18 am GMT+5:30,Devalina sen,31-35,Female,West Bengal,Pondicherry,10,Goa,10,Lavasa,10,Coorg,10,Lakshwadeep,10,Andaman,10,Sikkim,10,Santiniketan,10,Pune,10,Manali,10
+2020/04/17 10:20:18 am GMT+5:30,Devalina sen,31-35,Female,West Bengal,Pondicherry,10,Goa,10,Lavasa,10,Coorg,10,Lakshadweep,10,Andaman,10,Sikkim,10,Santiniketan,10,Pune,10,Manali,10
 2020/04/17 11:09:12 am GMT+5:30,Sumana Mukherjee,36-40,Female,West Bengal,Goa,9,Sikkim,10,Rajasthan,10,Meghalaya,10,Manipur,10,Nagaland,10,Delhi,8,Mumbai,9,Hyderabad,9,Bhitarkanika,10
 2020/04/17 11:23:41 am GMT+5:30,Joyraj Dhar,21-25,Male,West Bengal,Har Ki Dun,9,Dooars,8,Delhi,6,Purulia,5,Deoghar,7,Dehradun,9,Sasaram,4,Murshidabad,8,Malda,8,Digha,7
 2020/04/17 11:27:39 am GMT+5:30,Aritra Guha,21-25,Male,West Bengal,Kanyakumari,9,Mumbai,8,Guwahati,6,Kodaikanal,10,Amritsar,7,Ooty,10,Jaisalmer,9,Delhi,7,Goa,10,Tirupati Temple,10
 2020/04/17 11:39:20 am GMT+5:30,Udit Sulanki,26-30,Male,Jharkhand,Goa,10,Bangalore,7,Delhi,9,Kolkata,10,Gangtok,10,Agra,10,Chennai,3,Manali,10,Jaipur,10,Shimla,10
 2020/04/17 11:41:37 am GMT+5:30,Ranjana Uzir ,51 and above,Female,West Bengal,Jabbalpur,8,Bhubaneswar,8,Hyderabad,8,Chennai,8,Pondicherry,9,Delhi,8,Goa,9,Mumbai,7,Patna,7,Varanasi,7
-2020/04/17 11:45:05 am GMT+5:30,Piyasha Roy ,21-25,Female,West Bengal,Sikkim,10,Princep Ghat,8,Victoria Memorial,9,St. Pauls Cathedral,9,China Town,9,Eco Park,8,Spllent,10,Digha,8,Puri,8,Indian Museum,10
+2020/04/17 11:45:05 am GMT+5:30,Piyasha Roy ,21-25,Female,West Bengal,Sikkim,10,Princep Ghat,8,Victoria Memorial,9,St. Pauls Cathedral,9,China Town,9,Eco Park,8,,10,Digha,8,Puri,8,Indian Museum,10
 2020/04/17 11:45:06 am GMT+5:30,Kausik Kar,51 and above,Male,West Bengal,Shimla,10,Lucknow,7,Jaipur,10,Jim Corbett National Park,10,Darjeeling,10,Puri,10,Visakhapatnam,10,Netarhat,10,Delhi,10,Agra,10
 2020/04/17 11:45:58 am GMT+5:30,CHANDRIMA KANJI,21-25,Female,West Bengal,Assam,8,Jammu And Kashmir,9,Meghalaya,9,Arunachal Pradesh,9,Mysore,7,Agra,6,Kerala,9,Tripura,8,Delhi,5,Sikkim,9
 2020/04/17 11:50:01 am GMT+5:30,Manish Ray,21-25,Male,West Bengal,Gangtok,8,"Vaishno Devi, Katra",8,Visakhapatnam,8,Delhi,5,Sandakphu,9,Digha,7,Puri,7,Nicco Park,8,Tarapith,6,Ranchi,8
@@ -53,16 +53,16 @@ Timestamp,Name,Age Range,Gender,Native State,Place 1 (from India),Rating for Pla
 2020/04/17 2:25:02 pm GMT+5:30,Sharmistha Mullick,41-45,Female,West Bengal,Kinnaur,10,Sandakphu,10,Bagini Glacier,10,Rangaroon Tea Estate,9,Pelling,10,Manali,10,Haridwar,10,Tirumala,10,Kerala,8,Darjeeling,10
 2020/04/17 2:30:40 pm GMT+5:30,Suranjana DasGupta,46-50,Female,West Bengal,Rajasthan,10,Andaman,10,Kerala,10,Darjeeling,10,Puri,10,Delhi,10,Agra,10,Munnar,10,Kolkata,10,Shimla,10
 2020/04/17 2:32:26 pm GMT+5:30,Sayan Mondal,21-25,Male,West Bengal,Puri,7,Kolkata,8,Howrah,5,Mecheda,5,Medinipur,5,Chandannagar,6,Tarapith,8,Dharmatala,9,Gariahat,9,Dumdum,9
-2020/04/17 2:38:15 pm GMT+5:30,Chandan,51 and above,Male,West Bengal,Ichapur,7,Uttar Para,5,Chingri Ghata,5,Bankura,7,Purulia,3,Hydrabad,7,Babu Ghat,4,Chakdaha,6,Murshidabad,9,Sontoshpur,8
+2020/04/17 2:38:15 pm GMT+5:30,Chandan,51 and above,Male,West Bengal,Ichapur,7,Uttar Para,5,Chingri Ghata,5,Bankura,7,Purulia,3,Hyderabad,7,Babu Ghat,4,Chakdaha,6,Murshidabad,9,Sontoshpur,8
 2020/04/17 3:52:30 pm GMT+5:30,Rita Das,51 and above,Female,West Bengal,Murshidabad,8,Shimla,6,Manali,9,Sattal,8,Nainital,9,Ooty,10,Kodaikanal,9,Jaipur,9,Mahabaleshwar,9,Mumbai,10
 2020/04/17 4:11:18 pm GMT+5:30,Sarthak Sen,26-30,Male,West Bengal,Dharamshala,9,Chennai,7,Hyderabad,10,Rourkela,8,Delhi,8,Goa,10,Gangtok,10,Puri,8,Pondicherry,8,Kolkata,10
-2020/04/17 4:20:08 pm GMT+5:30,Somnath Khaskel,41-45,Male,West Bengal,Darjeeling,10,Sikkim,10,Kinnaur,10,Lahaul And Spiti Valley,10,Lahaul And Spiti Valley,10,Jammu And Kashmir,10,Uttarakhand,10,Uttarakhand,10,Lakhshadweep,10,Varanasi,10
+2020/04/17 4:20:08 pm GMT+5:30,Somnath Khaskel,41-45,Male,West Bengal,Darjeeling,10,Sikkim,10,Kinnaur,10,Lahaul And Spiti Valley,10,Lahaul And Spiti Valley,10,Jammu And Kashmir,10,Uttarakhand,10,Uttarakhand,10,Lakshadweep,10,Varanasi,10
 2020/04/17 4:58:52 pm GMT+5:30,Sangita Sen,46-50,Female,West Bengal,Hyderabad,10,Puri,10,Rourkela,9,Sambalpur,9,Kolkata,10,Hirakud,9,Chilika,9,Mayapur,9,Digha,9,Tirupati Temple,10
 2020/04/17 5:00:36 pm GMT+5:30,Gourav Dutta,21-25,Male,West Bengal,Manali,10,Pondicherry,7,Kasol,10,Kheerganga,10,Haridwar,6,Puri,5,Visakhapatnam,6,Bangalore,5,Mumbai,9,Goa,9
 2020/04/17 10:02:28 pm GMT+5:30,Aparajita Dasgupta,31-35,Female,West Bengal,Assam,10,Goa,10,Bangalore,7,Lucknow,7,Santiniketan,7,Joydev Kenduli,10,Haridwar,6,Mussoorie,10,Araku Valley,10,Darjeeling,5
 2020/04/18 12:39:11 pm GMT+5:30,Prajwal Raj,21-25,Male,Karnataka,Darjeeling,7,Andaman,9,Puri,7,Visakhapatnam,6,Jammu And Kashmir,8,Delhi,6,Gangtok,9,Kanyakumari,6,Jog Falls,8,Thiruvananthapuram,8
 2020/04/18 12:55:23 pm GMT+5:30,Chelleng,21-25,Male,Assam,Goa,9,Manali,8,Delhi,3,Agra,6,Mizoram,10,Sikkim,10,Bangalore,7,Meghalaya,10,Arunachal Pradesh,10,Kolkata,8
-2020/04/18 1:23:07 pm GMT+5:30,MAXXX,21-25,Male,West Bengal,Meghalaya,10,Rishop,10,Andaman,10,Pahalgam,10,Tuticorin,10,Purulia,10,Tajpur,8,Assam,10,Odissa,9,Gangtok,10
+2020/04/18 1:23:07 pm GMT+5:30,MAXXX,21-25,Male,West Bengal,Meghalaya,10,Rishop,10,Andaman,10,Pahalgam,10,Tuticorin,10,Purulia,10,Tajpur,8,Assam,10,Odisha,9,Gangtok,10
 2020/04/18 1:28:26 pm GMT+5:30,Pallabi Hui ,21-25,Female,West Bengal,Goa,9,Manali,9,Dooars,9,Jammu And Kashmir,9,Darjeeling,8,Delhi,8,Mumbai,7,Jaipur,7,Bangalore,7,Hyderabad,6
 2020/04/18 10:28:24 pm GMT+5:30,SAMRAT SANTARA ,26-30,Male,West Bengal,Dehradun,8,Darjeeling,7,Gangtok,9,Umaid Bhawan Palace,10,Kochi,9,Mandarmani,8,Shimla,9,Rajasthan,9,Delhi,7,Goa,8
 2020/04/19 12:42:55 am GMT+5:30,Moumita,26-30,Female,West Bengal,Santiniketan,9,Sikkim,9,Darjeeling,9,Dooars,8,Mandarmani,7,Mayapur,7,Dakshineswar Kali Temple,7,Belur Math,7,Tarapith,7,Digha,6
