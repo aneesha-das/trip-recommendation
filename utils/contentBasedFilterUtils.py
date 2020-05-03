@@ -23,7 +23,7 @@ def getTopRecommendations(title,method,column='tags',count=10):
     title_index=data[data['name']==title].index[0]
     sorted_index=pd.Series(similarity[title_index]).sort_values(ascending=False)
     top_index=list(sorted_index.iloc[0:count+1].index)
-    place_names=[];
+    place_names=[]
     for place in top_index:
         if(place!=title_index):
             place_names.append(place_dict[place])
