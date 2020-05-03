@@ -41,5 +41,5 @@ for place_with_tag in place_data:
             if(tag_id==0):
                 print(place_with_tag[i])
             mapping.append([place_with_tag[0],tag_id])
-tagPlaceMapping=pd.DataFrame(mapping,columns=['tag_id','place_id'])
+tagPlaceMapping=pd.DataFrame(mapping,columns=['place_id','tag_id'])
 tagPlaceMapping.to_csv('place_tag_mapping.csv', index=False)
