@@ -3,7 +3,7 @@ id,name
 2,adventure
 3,amusement
 4,animals
-5,architecture and sculpture
+5,architectureSculpture
 6,art
 7,buddhist
 8,capital
@@ -11,8 +11,8 @@ id,name
 10,christian
 11,city
 12,cloud
-13,club and food
-14,cold desert
+13,clubFood
+14,coldDesert
 15,dam
 16,desert
 17,festival
@@ -22,27 +22,27 @@ id,name
 21,himalaya
 22,hindu
 23,history
-24,industrial town
+24,industrialTown
 25,island
 26,junction
 27,malls
 28,metropoliton
-29,mountain pass
+29,mountainPass
 30,museum
 31,muslim
-32,national park
+32,nationalPark
 33,nature
 34,nightlife
 35,picnic
 36,religious
 37,sacred
 38,safari
-39,sea beach
+39,seaBeach
 40,shopping
 41,sikh
-42,snow peak
-43,tea garden
-44,tech city
+42,snowPeak
+43,teaGarden
+44,techCity
 45,trek
 46,tribal
 47,vegetation

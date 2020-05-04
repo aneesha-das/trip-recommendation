@@ -8,12 +8,11 @@ Created on Sun May  3 20:32:33 2020
 
 from utils.contentBasedFilterUtils import getTopRecommendations
 
-title='Manali'
-methods=['cosine','euclidean', 'manhattan']
+title='Digha'
+methods=['cosine','euclidean','pearson','spearman','kendall','jaccard']
 for m in methods:
     places=getTopRecommendations(title,method=m)
+    print()
     print("Since you have liked "+title+", you may like (By "+m+" method):")
     for x in places:
-        print(x)
-
-
+        print(x+ " coefficient: %.2f"%places[x])
