@@ -10,6 +10,7 @@ import pandas as pd
 import sklearn
 from sklearn.neighbors import NearestNeighbors
 
+#Generating data in desired format
 place_tag_mapping=pd.read_csv("place_tag_mapping.csv")
 place_details=pd.read_csv("places.csv")
 tags=pd.read_csv("tags.csv")
@@ -33,11 +34,16 @@ for index in range(0,place_with_tags["id"].size):
 
 
 places_df=pd.DataFrame(place_tag_matrix,columns=tag_names)
-
+#-----------------------------------------------------------------------------
+#picking liked place
 liked_place_name="Himachal Pradesh"
 liked_place=places_df.iloc[place_name_list.index(liked_place_name),:].copy(deep=True)
+#-----------------------------------------------------------------------------
+#Actual algorithm for KNN
 nbrs=NearestNeighbors(n_neighbors=5).fit(places_df)
 nearest_matches=nbrs.kneighbors([liked_place])
+#-----------------------------------------------------------------------------
+#Finding the match
 match_indexes=nearest_matches[1][0]
 print(liked_place)
 for index in match_indexes:
