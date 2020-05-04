@@ -3,3 +3,4 @@
 	a) Cleansing the name of the places, removing duplicates and storing the unique places in a different csv file.
 	b) Creating users.csv and mapping them to the places
 	c) Creating tags for places and mapping them to places
+	d) Collecting time required to visit each place and cost data

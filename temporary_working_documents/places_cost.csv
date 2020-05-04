@@ -1,0 +1,195 @@
+id,name,cost,days
+1,Agra,21833,3
+2,Aizawl,9000,1
+3,Ajanta Ellora Caves,5000,1
+4,Alappuzha,5000,2
+5,Alipore Zoo,100,1
+6,Allahabad,10000,4
+7,Amritsar,5000,1
+8,Andaman,10000,6
+9,Araku Valley,2300,1
+10,Arunachal Pradesh,15000,8
+11,Asansol,3000,2
+12,Assam,12000,5
+13,Babu Ghat,100,1
+14,Bagini Glacier,20000,8
+15,Bakkhali,2300,1
+16,Bandel,1000,1
+17,Bandipur,2300,1
+18,Bangalore,5000,2
+19,Bankura,200,1
+20,Belur Math,500,1
+21,Bhitarkanika,3500,1
+22,Bhubaneswar,5000,2
+23,Bishnupur,250,1
+24,Chakdaha,100,1
+25,Chandannagar,300,1
+26,Chandigarh,7000,2
+27,Chandipur,3000,2
+28,Chennai,30000,6
+29,Cherrapunji,10000,8
+30,Chidambaram,3000,1
+31,Chikmangalore,5000,2
+32,Chilika,2000,1
+33,China Town,1500,1
+34,Chingri Ghata,100,1
+35,Chopta,6000,5
+36,Coorg,15000,3
+37,Dadranagar Haveli,22000,4
+38,Dakshineswar Kali Temple,200,1
+39,Daman And Diu,10000,6
+40,Darjeeling,5000,3
+41,Dehradun,15000,3
+42,Delhi,7000,2
+43,Deoghar,1500,1
+44,Dharamshala,6000,2
+45,Dharmatala,300,1
+46,Dhubri,3000,2
+47,Diamond Harbour,300,1
+48,Digha,3000,2
+49,Diskit,5000,5
+50,Dooars,6000,4
+51,Dumdum,100,1
+52,Durgapur,2500,1
+53,Eco Park,500,1
+54,Gangtok,7000,2
+55,Gariahat,100,1
+56,Gaya,5000,1
+57,Goa,7000,4
+58,Gujarat,5000,4
+59,Gurugram,4000,2
+60,Guwahati,4000,3
+61,Hampi,4000,3
+62,Har Ki Dun,10000,6
+63,Haridwar,4000,2
+64,Harsil Valley,5000,2
+65,Himachal Pradesh,7000,6
+66,Hirakud,2000,1
+67,Howrah,100,1
+68,Hyderabad,7000,3
+69,Ichapur,1000,1
+70,Indian Museum,250,1
+71,Indore,4000,2
+72,Jabbalpur,4000,2
+73,Jaipur,16000,2
+74,Jaisalmer,30000,2
+75,Jammu And Kashmir,15000,5
+76,Jamnagar,5000,2
+77,Jamshedpur,2000,1
+78,Jayanti Hills,5000,2
+79,Jim Corbett National Park,5000,2
+80,Jodhpur,15000,3
+81,Jog Falls,8000,3
+82,Joydev Kenduli,1500,1
+83,Kalighat,250,1
+84,Kalimpong,2500,1
+85,Kamakhya Temple,2500,1
+86,Kanpur,3000,1
+87,Kanyakumari,5000,3
+88,Kasol,5000,3
+89,Kausani,3500,3
+90,Kaziranga National Park,15000,2
+91,Kedarnath,15000,3
+92,Kerala,7000,4
+93,Kheerganga,,
+94,Kinnaur,,
+95,Kochi,,
+96,Kodaikanal,,
+97,Kohima,,
+98,Kolaghat,,
+99,Kolkata,,
+100,Kota,,
+101,Lahaul And Spiti Valley,,
+102,Lakshadweep,,
+103,Lava,,
+104,Lavasa,,
+105,Leh Ladakh,,
+106,Lolegaon,,
+107,Lucknow,,
+108,Madhya Pradesh,,
+109,Madurai,,
+110,Mahabaleshwar,,
+111,Maharashtra,,
+112,Malda,,
+113,Manali,,
+114,Mandarmani,,
+115,Manipur,,
+116,Mathura,,
+117,Mayapur,,
+118,Mecheda,,
+119,Medinipur,,
+120,Meghalaya,,
+121,Mizoram,,
+122,Mukutmanipur,,
+123,Mumbai,,
+124,Munnar,,
+125,Murshidabad,,
+126,Mussoorie,,
+127,Mysore,,
+128,Na,,
+129,Nagaland,,
+130,Nainital,,
+131,Netarhat,,
+132,Nicco Park,,
+133,North East,,
+134,Numpith,,
+135,Odisha,,
+136,Ooty,,
+137,Pahalgam,,
+138,Panchgani,,
+139,Park Street,,
+140,Patna,,
+141,Pelling,,
+142,Pondicherry,,
+143,Princep Ghat,,
+144,Pune,,
+145,Punjab,,
+146,Puri,,
+147,Purulia,,
+148,Rajasthan,,
+149,Rajgir,,
+150,Rajkot,,
+151,Ranchi,,
+152,Rangaroon Tea Estate,,
+153,Rann Of Kutch,,
+154,Ravangla,,
+155,Rishop,,
+156,Rourkela,,
+157,Sambalpur,,
+158,Sandakphu,,
+159,Santiniketan,,
+160,Sasaram,,
+161,Sattal,,
+162,Science City,,
+163,Shankarpur,,
+164,Shillong,,
+165,Shimla,,
+166,Shulekha,,
+167,Sikkim,,
+168,Silchar,,
+169,Siliguri,,
+170,Sontoshpur,,
+171,St. Pauls Cathedral,,
+172,Sundarbans,,
+173,Surat,,
+174,Tajpur,,
+175,Taki,,
+176,Tarapith,,
+177,Thanjavur,,
+178,Thiruvananthapuram,,
+179,Tinchuley,,
+180,Tirumala,,
+181,Tirupati Temple,,
+182,Tripura,,
+183,Tuticorin,,
+184,Udaipur,,
+185,Umaid Bhawan Palace,,
+186,Uttar Para,,
+187,Uttar Pradesh,,
+188,Uttarakhand,,
+189,Vadodara,,
+190,"Vaishno Devi, Katra",,
+191,Varanasi,,
+192,Victoria Memorial,,
+193,Visakhapatnam,,
+194,Zuluk,,
