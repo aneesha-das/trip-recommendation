@@ -36,11 +36,11 @@ for index in range(0,place_with_tags["id"].size):
 places_df=pd.DataFrame(place_tag_matrix,columns=tag_names)
 #-----------------------------------------------------------------------------
 #picking liked place
-liked_place_name="Himachal Pradesh"
+liked_place_name="Digha"
 liked_place=places_df.iloc[place_name_list.index(liked_place_name),:].copy(deep=True)
 #-----------------------------------------------------------------------------
 #Actual algorithm for KNN
-nbrs=NearestNeighbors(n_neighbors=5).fit(places_df)
+nbrs=NearestNeighbors(n_neighbors=11).fit(places_df)
 nearest_matches=nbrs.kneighbors([liked_place])
 #-----------------------------------------------------------------------------
 #Finding the match

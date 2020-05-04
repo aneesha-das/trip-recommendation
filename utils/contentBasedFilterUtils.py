@@ -13,6 +13,7 @@ from scipy.stats import pearsonr
 from scipy.stats import spearmanr
 from scipy.stats import kendalltau
 from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.neighbors import NearestNeighbors
 import pandas as pd
 import numpy as np
 
@@ -35,6 +36,8 @@ def getTopRecommendations(title,method,column='tags',count=10):
     elif method=='manhattan':
         ascending_order=True
         similarity=getManhattanSimilarity(vector)
+    elif method=='knn':
+        return getKNNSimilarity(vector,title)
     else:
         return getPairwiseSimilarity(vector,title,method,count)
     title_index=data[data['name']==title].index[0]
@@ -92,3 +95,17 @@ def getPairwiseSimilarity(vector,title,method,count):
         i+=1
     return place_names
         
+def getKNNSimilarity(vector,title):
+    tag_vector=np.array(vector.todense()) 
+    title_index=data[data['name']==title].index[0]
+    liked_place=tag_vector[title_index]
+    nbrs=NearestNeighbors(n_neighbors=11).fit(tag_vector)
+    nearest_matches=nbrs.kneighbors([liked_place])
+    place_names={}
+    i=0
+    for place in nearest_matches[1][0]:
+        if place!=title_index:
+            place_names[place_dict[place]]=nearest_matches[0][0][i]
+        i+=1
+    return place_names
+    

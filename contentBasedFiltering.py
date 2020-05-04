@@ -9,7 +9,7 @@ Created on Sun May  3 20:32:33 2020
 from utils.contentBasedFilterUtils import getTopRecommendations
 
 title='Digha'
-methods=['cosine','euclidean','pearson','spearman','kendall','jaccard']
+methods=['cosine','euclidean','pearson','spearman','kendall','jaccard','knn']
 for m in methods:
     places=getTopRecommendations(title,method=m)
     print()
