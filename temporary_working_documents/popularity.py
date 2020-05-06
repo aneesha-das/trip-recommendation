@@ -13,4 +13,4 @@ ratings=pd.read_csv('user_place_mapping.csv')
 place_ratings=pd.merge(places,ratings,left_on='id',right_on='place_id')[["id","name","user_id","rating"]]
 rating_count=pd.DataFrame(place_ratings.groupby('id')['rating'].count())
 sorted_ratings=rating_count.sort_values('rating',ascending=False).head(10)
-print(pd.merge(places,sorted_ratings,on="id"))
+print(pd.merge(places,sorted_ratings,on="id").sort_values('rating',ascending=False))
