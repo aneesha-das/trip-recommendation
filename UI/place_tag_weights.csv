@@ -1,0 +1,285 @@
+place_id,tag_id,weight
+161,village,5
+161,waterbody,5
+161,hill,5
+161,"snow peak",5
+161,activities,5
+161,cloud,5
+161,vegetation,5
+161,nature,5
+162,amusement,5
+162,picnic,5
+162,"club and food",5
+162,activities,5
+163,"sea beach",5
+163,"club and food",5
+163,nature,5
+163,activities,5
+163,amusement,5
+163,picnic,5
+164,hill,5
+164,cloud,5
+164,city,5
+164,shopping,5
+164,activities,5
+164,vegetation,5
+164,waterbody,5
+164,waterfalls,5
+164,nature,5
+164,amusement,5
+164,cave,5
+164,"club and food",5
+164,capital,5
+164,junction,5
+165,hill,5
+165,cloud,5
+165,city,5
+165,shopping,5
+165,activities,5
+165,vegetation,5
+165,waterbody,5
+165,waterfalls,5
+165,nature,5
+165,amusement,5
+165,cave,5
+165,"club and food",5
+165,capital,5
+165,junction,5
+166,junction,5
+166,"club and food",5
+166,shopping,5
+166,activities,5
+167,"snow peak",5
+167,hill,5
+167,himalaya,5
+167,"mountain pass",5
+167,waterbody,5
+167,nature,5
+167,vegetation,5
+167,cloud,5
+167,activities,5
+167,amusement,5
+167,trek,5
+167,shopping,5
+167,junction,5
+167,adventure,5
+167,waterfalls,5
+167,buddhist,5
+168,"tea garden",5
+168,"industrial town",5
+168,city,5
+168,activities,5
+168,waterbody,5
+168,junction,5
+168,foothill,5
+169,foothill,5
+169,junction,5
+169,city,5
+169,activities,5
+169,amusement,5
+169,waterbody,5
+169,"tea garden",5
+170,junction,5
+170,"club and food",5
+170,activities,5
+170,shopping,5
+171,sacred,5
+171,religious,5
+171,festival,5
+171,christian,5
+172,waterbody,5
+172,safari,5
+172,animals,5
+172,"national park",5
+172,wildlife,5
+172,vegetation,5
+172,nature,5
+172,tribal,5
+173,"sea beach",5
+173,city,5
+173,"industrial town",5
+173,activities,5
+173,amusement,5
+173,"club and food",5
+173,malls,5
+174,"sea beach",5
+174,"club and food",5
+174,nature,5
+174,activities,5
+174,amusement,5
+174,picnic,5
+175,city,5
+175,waterbody,5
+175,picnic,5
+175,nature,5
+176,sacred,5
+176,hindu,5
+176,religious,5
+176,festival,5
+177,"architecture and sculpture",5
+177,art,5
+177,hindu,5
+177,city,5
+178,"sea beach",5
+178,city,5
+178,capital,5
+178,"industrial town",5
+178,history,5
+178,"architecture and sculpture",5
+178,art,5
+178,hindu,5
+178,christian,5
+178,activities,5
+178,amusement,5
+178,junction,5
+179,vegetation,5
+179,hill,5
+179,cloud,5
+179,"tea garden",5
+179,waterbody,5
+179,"snow peak",5
+179,nature,5
+180,hill,5
+180,"architecture and sculpture",5
+180,art,5
+180,hindu,5
+180,dam,5
+180,waterbody,5
+180,city,5
+1,history,10
+1,"architecture and sculpture",8
+1,city,3
+1,art,5
+2,hill,10
+2,wildlife,5
+2,nature,5
+2,village,5
+2,cloud,5
+2,waterfalls,5
+2,vegetation,5
+2,tribal,5
+3,history,5
+3,"architecture and sculpture",5
+3,sacred,5
+3,cave,5
+3,art,5
+4,"sea beach",5
+4,waterbody,5
+4,nature,5
+4,island,5
+4,vegetation,5
+4,activities,5
+5,amusement,5
+5,picnic,5
+5,animals,5
+6,history,5
+6,waterbody,5
+6,"architecture and sculpture",5
+6,sacred,5
+6,hindu,5
+6,junction,5
+6,city,5
+7,sacred,5
+7,"architecture and sculpture",5
+7,sikh,5
+7,history,5
+7,city,5
+7,capital,5
+7,junction,5
+8,island,5
+8,"sea beach",5
+8,activities,5
+8,nature,5
+8,cave,5
+8,adventure,5
+8,"national park",5
+8,tribal,5
+9,hill,5
+9,nature,5
+9,waterfalls,5
+9,wildlife,5
+10,himalaya,5
+10,"snow peak",5
+10,hill,5
+10,nature,5
+10,"national park",5
+10,"mountain pass",5
+10,waterbody,5
+10,activities,5
+10,trek,5
+10,waterfalls,5
+10,vegetation,5
+10,adventure,5
+10,cloud,5
+10,wildlife,5
+10,tribal,5
+11,"industrial town",5
+11,foothill,5
+11,activities,5
+11,junction,5
+12,hill,5
+12,"national park",5
+12,"tea garden",5
+12,waterbody,5
+12,hindu,5
+12,nature,5
+12,wildlife,5
+12,amusement,5
+12,waterfalls,5
+12,"industrial town",5
+12,tribal,5
+12,junction,5
+12,city,5
+12,cloud,5
+12,safari,5
+13,waterbody,5
+13,activities,5
+13,picnic,5
+14,himalaya,5
+14,glacier,5
+14,trek,5
+14,"snow peak",5
+14,"mountain pass",5
+14,adventure,5
+15,"sea beach",5
+15,island,5
+16,sacred,5
+16,christian,5
+16,picnic,5
+16,"architecture and sculpture",5
+16,history,5
+16,waterbody,5
+16,hindu,5
+16,muslim,5
+17,wildlife,5
+17,"national park",5
+17,safari,5
+17,waterfalls,5
+17,animals,5
+18,city,5
+18,"tech city",5
+18,"industrial town",5
+18,"club and food",5
+18,shopping,5
+18,nightlife,5
+18,"architecture and sculpture",5
+18,museum,5
+18,amusement,5
+18,activities,5
+18,capital,5
+18,metropoliton,5
+18,malls,5
+18,junction,5
+19,waterbody,5
+19,hill,5
+19,dam,5
+19,history,5
+19,"architecture and sculpture",5
+19,village,5
+19,hindu,5
+19,art,5
+20,sacred,5
+20,hindu,5
+20,religious,5
+20,waterbody,5
+20,festival,5
