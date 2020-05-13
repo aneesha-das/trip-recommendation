@@ -17,7 +17,7 @@ while(!feof($file)){
 	  continue;
   }
   if(is_array($tagValue)){
-	$tagDictionary[str_replace(" ","-",$tagValue[1])]=$tagValue;
+	$tagDictionary[$tagValue[1]]=$tagValue;
   }
 }
 fclose($file);
@@ -27,9 +27,9 @@ foreach($placeTagRatings as $placeTagRating){
 	$tags=$placeTagRating["tags"];
 	foreach($tags as $tag){
 		//IF TAG ID REQUIRED THEN USE THE FOLLOWING LINE
-		//$line=array($placeTagRating["id"],$tagDictionary[$tag["tag"]][0],$tag["weight"]);
+		$line=array($placeTagRating["id"],$tagDictionary[$tag["tag"]][0],$tag["weight"]);
 		//IF TAG NAME REQUIRED THEN USE THE FOLLOWING LINE
-		$line=array($placeTagRating["id"],$tag["tag"],$tag["weight"]);
+		//$line=array($placeTagRating["id"],$tag["tag"],$tag["weight"]);
 		fputcsv($file, $line); 
 	}
 }
