@@ -16,6 +16,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.neighbors import NearestNeighbors
 import pandas as pd
 import numpy as np
+from scipy import sparse
 
 data=getPlaces()
 place_dict={}
@@ -24,9 +25,12 @@ rows=matrix.shape[0]
 for i in range(0,rows,1):
     place_dict[data.index[i]]=matrix[i][1]
 
-def getTopRecommendations(title,method,column='tags',count=10):
-    countVector = CountVectorizer()
-    vector = countVector.fit_transform(data[column])
+def getTopRecommendations(title,method,count=10,weighted=True):
+    if method=='jaccard' or not weighted:
+        countVector = CountVectorizer()
+        vector = countVector.fit_transform(data['tags'])
+    else:
+        vector=sparse.csr_matrix(data['weight'].to_list())
     ascending_order=False;
     if method=='cosine':
         similarity=getCosineSimilarity(vector)
@@ -108,4 +112,9 @@ def getKNNSimilarity(vector,title):
             place_names[place_dict[place]]=nearest_matches[0][0][i]
         i+=1
     return place_names
+
+def getWeights():
+    vector=sparse.csr_matrix(data['weight'].to_list())
+    return vector
+    
     
