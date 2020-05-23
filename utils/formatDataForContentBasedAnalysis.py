@@ -21,6 +21,8 @@ def getPlaces():
     places=place_tags.merge(place_weights, on='place_id')
     places=place_details.merge(places, left_on='id', right_on='place_id')
     places=places.merge(place_tag_names, left_on='id', right_on='place_id')
+    user_place_rating=getMeanRatings()
+    places=places.merge(user_place_rating,left_on='id',right_on='place_id')
     places_indices=places.index
     place_tag_vector=[]
     for index in places_indices:
@@ -31,6 +33,11 @@ def getPlaces():
                 weight_tags.append(places.at[index,'weight'][tag_list.index(tag)])
             else:
                 weight_tags.append(0)
-        place_tag_vector.append([places.at[index, 'id'],places.at[index, 'name_x'],places.at[index,'tags'],weight_tags])
-    place_tags=pd.DataFrame(place_tag_vector,columns=['id','name','tags','weight'])
+        place_tag_vector.append([places.at[index, 'id'],places.at[index, 'name_x'],places.at[index,'tags'],weight_tags,places.at[index,'rating']])
+    place_tags=pd.DataFrame(place_tag_vector,columns=['id','name','tags','weight', 'rating'])
     return place_tags.copy(deep=True)
+
+def getMeanRatings():
+    user_place_rating=pd.read_csv("user_place_mapping.csv")
+    user_place_rating=user_place_rating.groupby('place_id')['rating'].mean()
+    return user_place_rating
