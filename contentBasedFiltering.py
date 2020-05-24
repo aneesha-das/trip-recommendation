@@ -9,7 +9,7 @@ Created on Sun May  3 20:32:33 2020
 from utils.contentBasedFilterUtils import getTopRecommendations
 
 #'cosine','euclidean','pearson','spearman','kendall','jaccard','knn'
-title='Ajanta Ellora Caves'
+title='Haridwar'
 methods=['cosine','pearson','knn']
 for m in methods:
     places=getTopRecommendations(title,method=m, weighted=False)

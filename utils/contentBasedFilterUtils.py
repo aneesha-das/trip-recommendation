@@ -17,6 +17,7 @@ import numpy as np
 from scipy import sparse
 
 data=getPlaces()
+minAllowedRate=5;
 place_dict={}
 place_rating_dict={}
 matrix=data.to_numpy()
@@ -94,7 +95,7 @@ def getPlaceNames(top_index, top_values, title_index):
     i=0;
     for place in top_index:
         if place!=title_index:
-            if place_rating_dict[place]>5:
+            if place_rating_dict[place]>minAllowedRate:
                 place_names[place_dict[place]]=top_values[i]
         i+=1
     return place_names
