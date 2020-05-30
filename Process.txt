@@ -4,3 +4,6 @@
 	b) Creating users.csv and mapping them to the places
 	c) Creating tags for places and mapping them to places
 	d) Collecting time required to visit each place and cost data
+3. Performing Content Based Filtering Using Various similarity check algorithms
+4. To improve the result weights are added on the tags of each places using a web application developed by us to input data easily
+5.Content based filtering algorithms repeated using weights. Improvement in the result found
