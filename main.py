@@ -7,6 +7,8 @@ Created on Mon Jun  1 11:47:20 2020
 
 
 from utils.contentBasedFilterUtils import getTopRecommendations
-from utils.collabFilterUtils import getCollabFilteringRecommendations
+from utils.collabFilterUtils import getCollabFilteringRecommendations,getUserWiseCollabFilteringRecommendations
 
-print(getCollabFilteringRecommendations("Darjeeling"))
+getUserWiseCollabFilteringRecommendations(1)
+
+#print(getCollabFilteringRecommendations("Darjeeling"))
