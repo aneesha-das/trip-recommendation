@@ -31,4 +31,4 @@ places=pd.DataFrame({
         'id':ids,
         'name':place_list
     })
-places.to_csv('places.csv', index=False)
+places.to_csv('places1.csv', index=False)
