@@ -99,4 +99,46 @@ def getPlaceNames(top_index, top_values, title_index):
                 place_names[place_dict[place]]=top_values[i]
         i+=1
     return place_names
+
+def getPlaceIdByName(placeName):
+    for index in data.index:
+        if(data["name"][index]==placeName):
+            return data["id"][index]
+    return -1
+
+def getPlaceIdByName(placeName):
+    for index in data.index:
+        if(data["name"][index]==placeName):
+            return data["id"][index]
+    return -1
+
+def getPlaceNameById(placeId):
+    return list(data["name"][data["id"]==placeId])[0]
+
+def generateRelevantPlacesWithReviews(title,method,count=50,weighted=True):
+    if method=='jaccard' or not weighted:
+        countVector = CountVectorizer()
+        vector = countVector.fit_transform(data['tags'])
+    else:
+        vector=sparse.csr_matrix(data['weight'].to_list())
+    ascending_order=False;
+    if method=='cosine':
+        similarity=getCosineSimilarity(vector)
+    elif method=='knn':
+        return getKNNSimilarity(vector,title,count)
+    else:
+        return getPairwiseSimilarity(vector,title,method,count)
+    title_index=data[data['name']==title].index[0]
+    sorted_index=pd.Series(similarity[title_index]).sort_values(ascending=ascending_order)
+    top_index=list(sorted_index.iloc[0:count+1].index)
+    top_values=list(sorted_index.iloc[0:count+1])
+    place_names=getPlaceNames(top_index, top_values, title_index)
+    final_places=[]
+    for index in range(1,195):
+        name=getPlaceNameById(index)
+        if name in place_names:
+            final_places.append(place_names[name])
+        else:
+            final_places.append(0)    
+    return final_places
     
