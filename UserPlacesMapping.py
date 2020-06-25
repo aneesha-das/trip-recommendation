@@ -42,4 +42,4 @@ for user_place_with_rating in place_data:
             mapping.append([user_id,place_id,user_place_with_rating[i+1]])
     user_id+=1
 userPlaceMapping=pd.DataFrame(mapping,columns=['user_id','place_id','rating'])
-userPlaceMapping.to_csv('user_place_mapping1.csv', index=False)
+userPlaceMapping.to_csv('user_place_mapping.csv', index=False)
