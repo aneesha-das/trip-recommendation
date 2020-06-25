@@ -27,13 +27,7 @@ def getCollabFilteringRecommendations(place_name):
     if place_name=="Darjeeling":
         print(np.array(list(place_data["name"])),np.array(place_names))
     index=place_list.index(place_name)
-    print("here comes!!")
-    print(rating_tabular_data_copy.columns)
     corr_column=correlation_data[index]
-    places=pd.DataFrame({
-        'name':rating_tabular_data_copy.columns
-    })
-    places.to_csv('abcdefg.csv', index=False)
     return corr_column
     #return list(place_names[(corr_column<1.0) & (corr_column>0.6)])
 
@@ -47,7 +41,6 @@ def getUserWiseCollabFilteringRecommendations(user_id):
     corr_result=[]
     for index in place_data.index:
         corr_column=getCollabFilteringRecommendations(place_data['name'][index])
-        return
         rating=place_data['rating'][index]
         corr_column=corr_column* rating
         if len(corr_result)==0:
@@ -56,6 +49,5 @@ def getUserWiseCollabFilteringRecommendations(user_id):
             corr_result=np.add(corr_result,corr_column)
     corr_result=corr_result/(len(place_data)*10)
     place_names=places["name"]
-    print(len(list(corr_result)))
-    #print(place_names[(corr_column<1.0) & (corr_column>0.6)])
+    print(place_names[(corr_column<1.0) & (corr_column>0.6)])
     
