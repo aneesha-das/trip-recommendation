@@ -25,4 +25,4 @@ To deploy the project, install python 3 along with its scientific libraries like
 ## Authors
 
 * **Aneesha Das** - *Project created & developed* - [aneesha-das](https://github.com/aneesha-das)
-* **Amit Banerjee** - *Project developed* - [parkouramit](https://github.com/parkouramit)
+* **Amit Banerjee** - *Project developed* - [amit-banerjee-03](https://github.com/amit-banerjee-03)
