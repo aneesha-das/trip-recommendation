@@ -1,6 +1,6 @@
 # Trip Recommendation
 
-This repository contains the source code for a recommendation system which uses both **content based** and **collaborative filtering** techniques to come up with good recommendation of places to visit for any particular user. We conducted a **survey** with 70+ users to make the **dataset** manually.
+This repository contains the source code for a recommendation system which uses both **content based** and **collaborative filtering** techniques to come up with good recommendation of places to visit for any particular user. We conducted a **survey** with 70+ users to create the **dataset** manually.
 
 ## Getting Started
 
