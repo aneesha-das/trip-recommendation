@@ -47,7 +47,7 @@ def getUserWiseCollabFilteringRecommendations(user_id):
     if len(corr_result)>0:
         corr_result=corr_result/(len(place_data)*10)
         place_names=places["name"]
-        print(place_names[(corr_column<1.0) & (corr_column>0.6)])
+        print(place_names[(corr_column<1.0) & (corr_column>0.5)])
         return
     print("Insufficient data")
     

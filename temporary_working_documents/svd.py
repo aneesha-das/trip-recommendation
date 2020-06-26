@@ -24,10 +24,8 @@ resultant_matrix=SVD.fit_transform(transpose)
 
 correlation_data=np.corrcoef(resultant_matrix)
 
-
 place_names=rating_tabular_data.columns
 place_list=list(place_names)
 index=place_list.index('Darjeeling')
 corr_column=correlation_data[index]
-
 print(list(place_names[(corr_column<1.0) & (corr_column>0.6)]))

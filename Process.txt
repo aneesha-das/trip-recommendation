@@ -3,8 +3,9 @@
 	a) Cleansing the name of the places, removing duplicates and storing the unique places in a different csv file.
 	b) Creating users.csv and mapping them to the places
 	c) Creating tags for places and mapping them to places
-	d) Collecting time required to visit each place and cost data
 3. Performing Content Based Filtering Using Various similarity check algorithms
 4. To improve the result weights are added on the tags of each places using a web application developed by us to input data easily
-5.Content based filtering algorithms repeated using weights. Improvement in the result found
-6.SVD used to recommend places based on user reviews
+5. Content based filtering algorithms repeated using weights. Improvement in the result found
+6. Cosine Similarity is selected in content based fitering
+7. The user-place-review matrix is decomposed using SVD and finally item to titem based collaborative filtering is done using Pearson correlation
+8. To apply hybrid filtering we have fed the results of content based filtering to collaborative filtering model to obtain better result

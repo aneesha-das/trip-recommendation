@@ -7,7 +7,7 @@ Created on Mon Jun  1 11:47:20 2020
 
 
 from utils.contentBasedFilterUtils import getTopRecommendations,generateRelevantPlacesWithReviews,getPlaceNameById
-from utils.collabFilterUtils import getCollabFilteringRecommendations,getUserWiseCollabFilteringRecommendations
+from utils.collabFilterUtils import getUserWiseCollabFilteringRecommendations
 import numpy as np
 import pandas as pd
 
@@ -30,14 +30,13 @@ for i in range(1,195):
     places_data.append(0)
 for placeLiked in placesLiked:
     if placeLiked["rating"]>5:
-        places_data=np.add(places_data,np.array(generateRelevantPlacesWithReviews(placeLiked["name"],"cosine"))*placeLiked["rating"])
+        places_data=np.add(places_data,np.array(generateRelevantPlacesWithReviews(placeLiked["name"]))*placeLiked["rating"])
     
 
 for index in range(1,195):
     placeId=index
     places.append({"id":placeId,"correlation":places_data[index-1]})
     
-places
 places.sort(key=lambda x: x["correlation"], reverse=True)
 places=places[:70]
 
